@@ -1,6 +1,6 @@
-require_relative "boot"
+require_relative 'boot'
 
-require "rails/all"
+require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -14,7 +14,7 @@ module HelloRailsBackend
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
-    config.autoload_lib(ignore: %w(assets tasks))
+    config.autoload_lib(ignore: %w[assets tasks])
 
     # Configuration for the application, engines, and railties goes here.
     #
@@ -31,7 +31,7 @@ module HelloRailsBackend
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*' # Add other origins as needed
-        resource '*', headers: :any, methods: [:get, :post, :patch, :put]
+        resource '*', headers: :any, methods: %i[get post patch put]
       end
     end
   end
