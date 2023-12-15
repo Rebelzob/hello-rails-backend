@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./app/assets/images/banner.png" />
-  <h3><b>John Palacios</b></h3>
+  <h3><b>Karim Barragan</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -25,13 +24,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 **Rails Hello World Backend** <a name="about-project"></a>
+# 📖 **Hello Rails Backend** <a name="about-project"></a>
 
-**Rails Hello World Backend** serves as a fundamental backend application designed to enable frontend applications to retrieve random messages from its APIs. This straightforward system facilitates seamless communication between the frontend and backend, providing a foundation for more complex interactions.
+**Hello Rails Backend** is a Rails API that provides a random message to the frontend application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-<a href="https://github.com/Rysth/hello-react-front-end">See the React Application</a>
+<a href="https://github.com/Rebelzob/hello-react-frontend">See the React Application</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -62,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-Uncover the essential features of **Rails Hello World Backend**:
+Uncover the essential features of **Hello Rails Backend**:
 
 - **Display Random Message from the Server**: Enable seamless retrieval and display of random messages from the server, providing dynamic content for frontend applications.
 
@@ -88,13 +87,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  rails server
-```
-
-And to execute this with TailwindCSS:
-
-```sh
-  ./bin/dev
+  rails server -p 3001
 ```
 
 ### Linters <a name="linters"></a>
@@ -105,20 +98,14 @@ Use this command to fix **Rubocop Linter** Errors:
   rubocop -A
 ```
 
-Use this command to fix **Stylelint** Errors:
-
-```sh
-  npx stylelint "**/*.{css,scss}" --fix
-```
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **John Palacios**
+👤 **Karim Barragan**
 
 - GitHub: [Karim Barragan](https://github.com/Rebelzob)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-palacios-rysthcraft)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/karim-barragan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +131,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks to my family members for supporting me during Microverse, and their team.
+- [Microverse](https://www.microverse.org/)
+I would like to thank the Microverse organization for providing the curriculum and the opportunity to learn and develop my skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
