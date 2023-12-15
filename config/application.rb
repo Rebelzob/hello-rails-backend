@@ -9,6 +9,7 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module HelloRailsBackend
+  # Main application class for the HelloRailsBackend project.
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
