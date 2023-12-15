@@ -113,7 +113,7 @@ Use this command to fix **Rubocop Linter** Errors:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement CRUD functionality for Messages**: Develop a comprehensive CRUD (Create, Read, Update, Delete) application, enabling efficient management and manipulation of message data within the system.
+- [ ] **Implement CRUD functionality for Messages**: Enable the creation, retrieval, updating, and deletion of messages from the database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
